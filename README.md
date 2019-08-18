@@ -2,7 +2,8 @@
 
 This repository contains python implementations of some epidemic models, notably realizations of the SIR and SIS models (see https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology).
 
-**2D simulation on grid**i
+**2D simulation on grid**
+
 The file ```sir_ani.py``` contains a pure numpy implementation of the SIR model on a 2D, regular grid. Running it via
   ```$ python sir_ani.py```
 opens an animation where the population dynamics on the grid is evaluated in real time. 
