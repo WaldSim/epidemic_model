@@ -1,4 +1,4 @@
-# content
+# Content
 
 This repository contains python implementations of some epedemic models, notably realizations of the SIR and SIS models (see https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology).
 
