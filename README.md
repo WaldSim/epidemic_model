@@ -1,8 +1,8 @@
 # Content
 
-This repository contains python implementations of some epedemic models, notably realizations of the SIR and SIS models (see https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology).
+This repository contains python implementations of some epidemic models, notably realizations of the SIR and SIS models (see https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology).
 
-**2D simulation on grid**
+**2D simulation on grid**i
 The file ```sir_ani.py``` contains a pure numpy implementation of the SIR model on a 2D, regular grid. Running it via
   ```$ python sir_ani.py```
 opens an animation where the population dynamics on the grid is evaluated in real time. 
@@ -11,8 +11,10 @@ Model parameters and grid size can by adjusted by setting the appropriate flag, 
 To list all possible options, just run ```$ python sir_ani.py -h```.
 
 **Model dynamics**
-The notebook ```SIR.ipynb``` solves the SIR and SIS model with an efficient ordinary differential equation numerical solver. The notebook comes with a handy animation method, allowing the user to manually adjust the models' parameters and immediately see their respective effect on the dynamics of the epedemy.
 
+The notebook ```SIR.ipynb``` solves the SIR and SIS model with an efficient ordinary differential equation numerical solver. The notebook comes with a handy animation method, allowing the user to manually adjust the models' parameters and immediately see their respective effect on the dynamics of the epidemy.
+
+![](https://github.com/WaldSim/epidemic_model/sir.png)
 
 ## requirements
 
