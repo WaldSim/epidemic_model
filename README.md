@@ -4,9 +4,8 @@ This repository contains python implementations of some epedemic models, notably
 
 The file ```sir_ani.py``` contains a pure numpy implementation of the SIR model on a 2D, regular grid. Running it via
   ```$ python sir_ani.py```
-  
 opens an animation where the population dynamics on the grid is evaluated in real time. 
-Model parameters and grid size can by adjusted by setting the appropriate flag, e.g. type ```$ python sir_ani.py --gamma=2.0``` to set $\gamma$ to 0.2.
+Model parameters and grid size can by adjusted by setting the appropriate flag, e.g. type ```$ python sir_ani.py --gamma=2.0``` to set \gamma to 0.2.
 
 To list all possible options, just run ```$ python sir_ani.py -h```.
 
