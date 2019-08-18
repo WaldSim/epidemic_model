@@ -14,7 +14,7 @@ To list all possible options, just run ```$ python sir_ani.py -h```.
 
 The notebook ```SIR.ipynb``` solves the SIR and SIS model with an efficient ordinary differential equation numerical solver. The notebook comes with a handy animation method, allowing the user to manually adjust the models' parameters and immediately see their respective effect on the dynamics of the epidemy.
 
-![](https://github.com/WaldSim/epidemic_model/sir.png)
+![](https://github.com/WaldSim/epidemic_model/blob/master/sir.png)
 
 ## requirements
 
